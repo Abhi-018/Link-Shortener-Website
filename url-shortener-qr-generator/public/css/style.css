@@ -1,0 +1,71 @@
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Body styles */
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, #def752 0%, #f5d04d 25%, #ade779 25%, #e36ae7 50%, #e026da 50%, #ade779 75%, #f5d04d 75%, #def752 100%); /* Four colors split vertically */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+}
+
+/* Container styles */
+.container {
+  max-width: 600px;
+  margin: 100px auto; /* Adjusted margin for centering */
+  background: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Form styles */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center the form items */
+  margin-top: 20px;
+}
+
+input[type="text"] {
+  padding: 15px;
+  width: 70%;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 18px; /* Larger font size */
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 15px 30px;
+  margin-left: 0;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  font-size: 18px; /* Larger font size */
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+h1, h2 {
+  color: #333;
+}
+
+img {
+  max-width: 100%;
+  margin-top: 20px;
+}
